@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33942358484",
+    "firebase_url": "https://travelook-v1.firebaseio.com",
+    "project_id": "travelook-v1",
+    "storage_bucket": "travelook-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33942358484:android:66af7de9376ec29e",
+        "android_client_info": {
+          "package_name": "com.example.aizat.travelook_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33942358484-gj9ls27be15d9sd0mv54uvt7p231n964.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aizat.travelook_v1",
+            "certificate_hash": "ceb8a6bf0e063968a58c04e99e1ab69e6d25bb17"
+          }
+        },
+        {
+          "client_id": "33942358484-hbknkvlu9bamj7r74sa75vakmpjqs9ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsw_PA5p-p7BVMcIbdaHXOclL3bl1q8Lk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33942358484-hbknkvlu9bamj7r74sa75vakmpjqs9ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

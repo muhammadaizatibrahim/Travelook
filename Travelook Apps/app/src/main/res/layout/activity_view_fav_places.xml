@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewFavPlaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/favName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Place Name"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/favAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Place Address"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/favPhoneNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Phone Number: "
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/FavWebsite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Website: "
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <android.support.v7.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp">
+
+                   <ImageView
+
+                       android:id="@+id/direction"
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_margin="5dp"
+                       android:src="@drawable/ic_directions_black_24dp"/>
+
+               </android.support.v7.widget.CardView>
+
+               <android.support.v7.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp">
+
+                   <ImageView
+                       android:id="@+id/call"
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_margin="5dp"
+                       android:src="@drawable/phone"
+                       />
+
+               </android.support.v7.widget.CardView>
+
+               <android.support.v7.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp">
+
+                   <ImageView
+                       android:id="@+id/openWebsite"
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_margin="5dp"
+                       android:src="@drawable/ic_language_black_24dp"/>
+
+               </android.support.v7.widget.CardView>
+
+               <android.support.v7.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp">
+
+                   <ImageView
+                       android:id="@+id/remove"
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_margin="5dp"
+                       android:src="@drawable/delete"
+                       />
+
+               </android.support.v7.widget.CardView>
+
+           </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
